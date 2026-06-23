@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restoran Titanic Zenica</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#faf8f5;
+    color:#333;
+}
+
+.hero{
+    min-height:100vh;
+    background:linear-gradient(rgba(20,20,20,0.5),
+    rgba(20,20,20,0.5)),
+    url('https://images.unsplash.com/photo-1514933651103-005eec06c04b');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    padding:0 10%;
+}
+
+.hero-content{
+    max-width:650px;
+    color:white;
+}
+
+.hero h1{
+    font-size:80px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#d48a2f;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:50px;
+}
+
+.intro{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    padding:90px 10%;
+}
+
+.left h2{
+    color:#d48a2f;
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.left p{
+    line-height:1.9;
+    font-size:18px;
+}
+
+.right{
+    display:grid;
+    gap:20px;
+}
+
+.info-box{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.info-box h3{
+    color:#d48a2f;
+    margin-bottom:10px;
+}
+
+.specials{
+    padding:80px 10%;
+    background:white;
+}
+
+.specials h2{
+    text-align:center;
+    font-size:42px;
+    color:#d48a2f;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    justify-content:center;
+}
+
+.card{
+    width:300px;
+    background:#faf8f5;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#d48a2f;
+}
+
+.numbers{
+    padding:80px 10%;
+    background:#2f3d4a;
+    color:white;
+}
+
+.number-grid{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    flex-wrap:wrap;
+    text-align:center;
+}
+
+.number-grid h2{
+    font-size:55px;
+}
+
+.visit{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.visit h2{
+    color:#d48a2f;
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.visit p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#1f1f1f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:900px){
+
+.intro{
+    grid-template-columns:1fr;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="hero-content">
+        <h1>TITANIC</h1>
+
+        <p>
+            Restoran Titanic predstavlja idealno mjesto za porodične ručkove,
+            poslovne sastanke i posebne proslave. Smješten u prirodnom ambijentu
+            uz rijeku Lašvu, gostima pruža spoj vrhunske hrane, ugodne atmosfere
+            i tradicionalnog bosanskog gostoprimstva.
+        </p>
+
+        <a href="#" class="btn">Rezervacija</a>
+    </div>
+
+</section>
+
+<section class="intro">
+
+    <div class="left">
+
+        <h2>Mjesto za svaku priliku</h2>
+
+        <p>
+            Titanic je prepoznatljiv po bogatoj gastronomskoj ponudi,
+            specijalitetima sa roštilja, domaćim jelima i ugodnom ambijentu.
+            Veliki prostor i prirodno okruženje čine ga savršenim izborom
+            za porodična okupljanja, svadbe, rođendane i poslovne događaje.
+        </p>
+
+    </div>
+
+    <div class="right">
+
+        <div class="info-box">
+            <h3>🥩 Roštiljski Specijaliteti</h3>
+            <p>Najpopularnija jela pripremljena od pažljivo odabranih sastojaka.</p>
+        </div>
+
+        <div class="info-box">
+            <h3>🌳 Prirodni Ambijent</h3>
+            <p>Opuštajuće okruženje idealno za odmor i druženje.</p>
+        </div>
+
+        <div class="info-box">
+            <h3>🎉 Proslave i Događaji</h3>
+            <p>Prostor prilagođen manjim i većim svečanostima.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="specials">
+
+    <h2>Naša Ponuda</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🍖 Jela sa Roštilja</h3>
+            <p>Raznovrsni specijaliteti pripremljeni po tradicionalnim receptima.</p>
+        </div>
+
+        <div class="card">
+            <h3>🥗 Svježe Salate</h3>
+            <p>Idealna kombinacija uz svako glavno jelo.</p>
+        </div>
+
+        <div class="card">
+            <h3>🍰 Deserti</h3>
+            <p>Domaći kolači i slastice za savršen završetak obroka.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="numbers">
+
+    <div class="number-grid">
+
+        <div>
+            <h2>20+</h2>
+            <p>Godina tradicije</p>
+        </div>
+
+        <div>
+            <h2>10k+</h2>
+            <p>Zadovoljnih gostiju</p>
+        </div>
+
+        <div>
+            <h2>365</h2>
+            <p>Dana gostoprimstva</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="visit">
+
+    <h2>Posjetite Nas</h2>
+
+    <p><strong>Lokacija:</strong> Kanjon Lašve, Zenica</p>
+    <p><strong>Radno vrijeme:</strong> 08:00 - 23:00</p>
+    <p><strong>Telefon:</strong> +387 30 592 005</p>
+
+</section>
+
+<footer>
+    © 2026 Restoran Titanic Zenica
+</footer>
+
+</body>
+</html>
